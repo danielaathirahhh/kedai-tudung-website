@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesanan - Kedai Tudung Online Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Utama</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="pesanan.html">Pesanan</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content for Pesanan -->
+    <div class="main-content">
+        <h1>Pesanan</h1>
+        <p>Fill in your details to place an order:</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="phone">No. Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address"></textarea><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="product">Product Name:</label><br>
+            <input type="text" id="product" name="product"><br><br>
+
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity"><br><br>
+
+            <label for="payment">Payment Method:</label><br>
+            <select id="payment" name="payment">
+                <option value="banking">Banking</option>
+                <option value="cod">COD</option>
+                <option value="alipay">Alipay</option>
+                <option value="applepay">Apple Pay</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>No. 8 Pauh Putra, Arau</p>
+        <p>+60195786332</p>
+    </footer>
+</body>
+</html>
